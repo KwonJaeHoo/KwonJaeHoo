@@ -49,7 +49,7 @@ public class UserService
                 .password(passwordEncoder.encode(userDto.getPassword()))
                 .nickname(userDto.getNickname())
                 .authorities(Collections.singleton(authority))
-                .activated(null)
+                .activated(true)
                 .build();
 
         return UserDto.from(userRepository.save(user));

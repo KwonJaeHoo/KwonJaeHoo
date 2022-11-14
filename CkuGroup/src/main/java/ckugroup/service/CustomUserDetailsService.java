@@ -39,7 +39,7 @@ public class CustomUserDetailsService implements UserDetailsService
 	 //해당 정보를 기반으로 userdetails, User객체를 생성해 리턴
 	 private org.springframework.security.core.userdetails.User createUser(String username, User user) 
 	 {
-		 if (!user.isActivated()) 
+		 if(!user.isActivated()) 
 		 {
 			 throw new RuntimeException(username + " -> 활성화되어 있지 않습니다.");
 		 }

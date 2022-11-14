@@ -24,7 +24,7 @@ import javax.validation.Valid;
 //login API 추가를 위해 AuthController 생성
 public class AuthController 
 {
-	//AuthController 는 TokenProvider, AuthenticationManagerBuilder를 주입받음 
+	//AuthController는 TokenProvider, AuthenticationManagerBuilder를 주입받음 
 	private final TokenProvider tokenProvider;
     private final AuthenticationManagerBuilder authenticationManagerBuilder;
 
