@@ -12,7 +12,6 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Authority 
 {
-
 	//권한 명이라는 PK
 	@Id	
 	@Column(name = "authority_name", length = 50)

@@ -25,10 +25,10 @@ import lombok.*;
 public class LoginDto 
 {
 	@NotNull
-	@Size(min = 3, max = 50)
+	@Size(min = 5, max = 8)
 	private String username;
 	
 	@NotNull
-	@Size(min = 3, max = 300)
+	@Size(min = 3, max = 32)
 	private String password;
 }

@@ -3,14 +3,17 @@ package ckugroup.controller;
 import ckugroup.dto.UserDto;
 
 import ckugroup.service.UserService;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
+
 import java.io.IOException;
+//import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api")
@@ -22,24 +25,27 @@ public class UserController
     {
         this.userService = userService;
     }
-
+    
     @GetMapping("/hello")
-    public ResponseEntity<String> hello() 
-    {
+    public ResponseEntity<String> hello() {
         return ResponseEntity.ok("hello");
     }
 
+    
+    @PostMapping("/logout")
+    public void testCookie(HttpServletResponse response)
+    {
+        //원래 쿠키의 이름이 userInfo 이었다면, value를 null로 처리.
+        Cookie myCookie = new Cookie("token", null);
+        myCookie.setMaxAge(0); // 쿠키의 expiration 타임을 0으로 하여 없앤다.
+        myCookie.setPath("/"); // 모든 경로에서 삭제 됬음을 알린다.
+        response.addCookie(myCookie);
+    }
+    
     @PostMapping("/test-redirect")
     public void testRedirect(HttpServletResponse response) throws IOException 
     {
         response.sendRedirect("/api/user");
-    }
-    
-    //UserController에는 signup api 존재, Userdto 객체 파라미터로 받아 UserService signup 메소드 수행
-    @PostMapping("/signup")
-    public ResponseEntity<UserDto> signup(@Valid @RequestBody UserDto userDto) 
-    {
-        return ResponseEntity.ok(userService.signup(userDto));
     }
 
     @GetMapping("/user")
@@ -58,4 +64,13 @@ public class UserController
     {
         return ResponseEntity.ok(userService.getUserWithAuthorities(username));
     }
+    
+
+    
+//    //UserController에는 signup api 존재, Userdto 객체 파라미터로 받아 UserService signup 메소드 수행
+//	@PostMapping("/signup")
+//	public ResponseEntity<UserDto> signup(@Valid @RequestBody UserDto userDto) 
+//	{
+//		return ResponseEntity.ok(userService.signup(userDto));
+//	}
 }

@@ -17,6 +17,8 @@ import ckugroup.dto.TokenDto;
 import ckugroup.jwt.JwtFilter;
 import ckugroup.jwt.TokenProvider;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 @RestController
@@ -27,11 +29,13 @@ public class AuthController
 	//AuthController는 TokenProvider, AuthenticationManagerBuilder를 주입받음 
 	private final TokenProvider tokenProvider;
     private final AuthenticationManagerBuilder authenticationManagerBuilder;
+    private final HttpServletResponse response;
 
-    public AuthController(TokenProvider tokenProvider, AuthenticationManagerBuilder authenticationManagerBuilder) 
+    public AuthController(TokenProvider tokenProvider, AuthenticationManagerBuilder authenticationManagerBuilder, HttpServletResponse response) 
     {
         this.tokenProvider = tokenProvider;
         this.authenticationManagerBuilder = authenticationManagerBuilder;
+        this.response = response;
     }
 
     //로그인 API경로는 /api/authenticate, post요청을 받음
@@ -50,10 +54,17 @@ public class AuthController
         
         String jwt = tokenProvider.createToken(authentication);
         
-        //jwt 토큰은 Response header에도 넣고, tokenDto 이용해서 Response body에도 넣어서 리턴  
+        //jwt 토큰은 Response header에도 넣고, tokenDto 이용해서 Response body에도 넣어서 리턴
         HttpHeaders httpHeaders = new HttpHeaders();
         httpHeaders.add(JwtFilter.AUTHORIZATION_HEADER, "Bearer " + jwt);
-
+        
+        Cookie myCookie = new Cookie("token", jwt);
+        	myCookie.setMaxAge(30 * 60);
+        	myCookie.setPath("/");
+        	myCookie.setHttpOnly(true);
+        	myCookie.getSecure();
+        	response.addCookie(myCookie);
+        	
         return new ResponseEntity<>(new TokenDto(jwt), httpHeaders, HttpStatus.OK);
     }
 }

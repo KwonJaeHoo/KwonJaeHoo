@@ -19,19 +19,20 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDto {
+public class UserDto 
+{
 
    @NotNull
-   @Size(min = 3, max = 50)
+   @Size(min = 8, max = 8)
    private String username;
 
    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
    @NotNull
-   @Size(min = 3, max = 100)
+   @Size(min = 16, max = 128)
    private String password;
 
    @NotNull
-   @Size(min = 3, max = 50)
+   @Size(min = 3, max = 32)
    private String nickname;
    
    private Set<AuthorityDto> authorityDtoSet;

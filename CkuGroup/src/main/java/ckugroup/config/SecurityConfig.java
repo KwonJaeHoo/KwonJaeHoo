@@ -82,9 +82,8 @@ public class SecurityConfig
         .authorizeRequests()
 		// /hello에 대한 요청 인증없이 접근허용
 		// 로그인, 회원가입 API는 토큰 없는 상태에서 요청 들어오기 때문에 permitAll
-        .antMatchers("/api/hello").permitAll()
         .antMatchers("/api/authenticate").permitAll()
-        .antMatchers("/api/signup").permitAll()
+//        .antMatchers("/api/signup").permitAll()
         
         // 이 요청들은 인증되어야 함
         .anyRequest().authenticated()

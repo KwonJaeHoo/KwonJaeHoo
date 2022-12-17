@@ -57,16 +57,15 @@ public class UserService
 
     //유저 권한정보를 가져오는 메소드 2개, getUserWithAuthorities는 username을 기준으로 정보를 가져옴
     @Transactional(readOnly = true)
-    public UserDto getUserWithAuthorities(String username) {
+    public UserDto getUserWithAuthorities(String username) 
+    {
         return UserDto.from(userRepository.findOneWithAuthoritiesByUsername(username).orElse(null));
     }
+    
     //getMyUserWithAuthorities는 SecurityContext에 저장된 username의 정보만 가져옴
     @Transactional(readOnly = true)
-    public UserDto getMyUserWithAuthorities() {
-        return UserDto.from(
-                SecurityUtil.getCurrentUsername()
-                        .flatMap(userRepository::findOneWithAuthoritiesByUsername)
-                        .orElseThrow(() -> new NotFoundMemberException("Member not found"))
-        );
+    public UserDto getMyUserWithAuthorities() 
+    {
+        return UserDto.from(SecurityUtil.getCurrentUsername() .flatMap(userRepository::findOneWithAuthoritiesByUsername) .orElseThrow(() -> new NotFoundMemberException("Member not found")));
     }
 }
