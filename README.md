@@ -1,11 +1,13 @@
-## 👋 KwonJaeHoo GitHub
+<h1>KwonJaeHoo / 권재후</h1>
+
+## 👋 권재후입니다. 백엔드 개발자를 목표로 노력하고 있습니다.
 
 ## 📫 
 <!-- github --> <!-- notion -->
 <a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
 <a href=""><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 
-## 💻 Stack</h3>
+## 💻 Stack
 
 <p align="left">
   <!-- java --> <!-- c --> <!-- html5 --><!-- javaScript --> <!-- oracle --><!-- mysql -->
@@ -31,8 +33,7 @@
 </p>
 
 ## 
-<p align="left"> 
-  
-<!-- Hits -->
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKwonJaeHoo%2FKwonJaeHoo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+<p align="left">
+  <!-- Hits -->
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKwonJaeHoo%2FKwonJaeHoo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </p>
