@@ -2,9 +2,14 @@
 
 
 
+
 <h3 align="left">Languages and Tools:</h3>
 
 <p align="left">
+
+
+![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
 
 <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
@@ -13,7 +18,10 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
 </a> 
 
-<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> 
+<a href="https://spring.io/" target="_blank" rel="noreferrer"> 
+<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
+</a> 
+
 
 
 
@@ -41,12 +49,6 @@
 <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
 </a> 
-  
-
-
-
-
-
 
 </p>
 
