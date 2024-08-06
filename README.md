@@ -24,5 +24,5 @@
 
 <p align="left"> 
   
-![](https://img.shields.io/github/watchers/{KwonJaeHoo}/{KwonJaeHoo}.svg)
+![](https://img.shields.io/github/watchers/{KwonJaeHoo}/{kwonjaehoo}.svg)
 </p>
