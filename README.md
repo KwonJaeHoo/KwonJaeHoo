@@ -1,11 +1,10 @@
-<h1>KwonJaeHoo / 권재후</h1>
-
 ## 👋 권재후입니다. 백엔드 개발자를 목표로 노력하고 있습니다.
 
 ## 📫 
 <!-- github --> <!-- notion -->
 <a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
 <a href=""><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+<a href=""><img alt="Gmail" src="https://img.shields.io/badge/gmail-#EA4335?style=for-the-badge&logo=notion&logoColor=black"/></a>
 
 ## 💻 Stack
 
