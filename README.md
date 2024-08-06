@@ -1,8 +1,9 @@
-## 👋 권재후입니다.
+<h4>권재후 입니다. 백엔드 개발자를 목표로 노력하고 있습니다. </h4>
+<!--<h4>hi, i'm JaeHoo Kwon </h4>-->
 
 ## 📫 
-<!-- github --> <!-- notion -->
-<a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
+<!-- github --> <!-- notion --> <!-- gmail -->
+<a href="https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
 <a href=""><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 <a href="mailto:wogn2918@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=black"/></a>
 
