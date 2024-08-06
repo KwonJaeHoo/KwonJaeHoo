@@ -1,13 +1,10 @@
 ## 👋 KwonJaeHoo GitHub
 
-<h4 align="left"> </h4>
-<!--
-<p align="left">
-  ![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
-</p>
--->
+## 📫 
+<!-- github -->
+<a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 
-<h3 align="left">⚙ Stack</h3>
+## 💻 Stack</h3>
 
 <p align="left">
 
@@ -16,13 +13,13 @@
 
 <!-- spring --><!-- spring security --> <!-- aws -->
   ![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white) ![](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-<!-- github --> <!-- git -->
-<a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> <a><img alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/></a>
-
 </p>
 
+<!-- git -->
+  ![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+  
 <p align="left"> 
   
-![](https://img.shields.io/github/watchers/KwonJaeHoo/KwonJaeHoo.svg)
+<!-- github watchers -->
+  ![](https://img.shields.io/github/watchers/KwonJaeHoo/KwonJaeHoo.svg)
 </p>
