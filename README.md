@@ -2,13 +2,19 @@
 
 ## 📫 
 <!-- github --> <!-- notion -->
-<a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> <a href=""><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/> </a>
+<a href = "https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
+<a href=""><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 
 ## 💻 Stack</h3>
 
 <p align="left">
 
 <!-- java --> <!-- c --> <!-- html5 --><!-- javaScript --> <!-- oracle --><!-- mysql -->
+<img alt="java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img alt="html5" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+<img alt="javaScript" src=""/>
+<img alt="oracle" src=""/>
+<img alt="mysql" src=""/>
   ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white) ![](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black) ![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 <!-- spring --> <!-- spring boot --> <!-- spring security --> <!-- aws -->
