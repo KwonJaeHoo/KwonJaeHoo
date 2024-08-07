@@ -10,32 +10,32 @@
 ## 💻 Stack
 
 <p align="left">
-  <!-- java --> <!-- c --> <!-- html5 --><!-- javaScript --> <!-- oracle --><!-- mysql -->
+  <!-- java --> <!-- c --> <!-- html5 --> <!-- javaScript --> <!-- jQuery --> <!- thymeleaf -->
   <img alt="java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img alt="c" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>    
-  
   <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img alt="javaScript" src="https://img.shields.io/badge/Java%20Script-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
   <img alt="jQuery" src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
   <img alt="thymeLeaf" src="https://img.shields.io/badge/thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" />
-  <img alt="tomcat" src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white" />   
   
+  <!-- oracle --><!-- mysql -->
   <img alt="oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=black"/>
   <img alt="mysql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
   
 </p>
 
 <p align="left">
-  <!-- spring --> <!-- spring boot --> <!-- spring security --> <!-- aws ec2 -->
+  <!-- spring --> <!-- spring boot --> <!-- spring security --> 
   <img alt="spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
   <img alt="spring boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white"/>
   <img alt="spring security" src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white"/>
-  <img alt="aws ec2" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/>
 </p>
 
 <p align="left">
-  <!-- git -->
+  <!-- git --> <!-- tomcat --> <!-- aws ec2 -->
   <img alt="git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+  <img alt="aws ec2" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/>
+  <img alt="tomcat" src="https://img.shields.io/badge/apache%20tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white" />   
 </p>
 
 ## 
