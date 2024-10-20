@@ -4,7 +4,7 @@
 ## 📫 
 <!-- github --> <!-- notion --> <!-- gmail -->
 <a href="https://github.com/KwonJaeHoo"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a> 
-<a href="https://www.notion.so/bff73bf27f7c49bb9675d8d72d228f1b?pvs=4"><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+<a href="https://magical-office-b9e.notion.site/1251e879d34c8099bbf9da1398d7256f?pvs=4"><img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 <a href="mailto:wogn2918@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=black"/></a>
 
 ## 💻 Stack
